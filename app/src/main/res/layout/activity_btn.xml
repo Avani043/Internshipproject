@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".btn">
+
+
+    <Button
+        android:id="@+id/b1"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="DC"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="214dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="CM"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/b3"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="275dp"
+        android:layout_height="75dp"
+        android:layout_alignStart="@+id/b1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="327dp"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="DCC"
+        android:textSize="36sp" />
+</RelativeLayout>
